@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Cabeçalho */
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url(assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #33a8db80;
+    height: 600px;
+    padding: 60px;
+}
+
+.banner-content{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin: auto;
+    padding: 16px;
+    height: 260px;
+    width: 260px;
+}
+
+.logo > img{
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+    padding: 20px;
+    width: 100%;
+}
+
+.banner-content > h1{
+    background: -webkit-linear-gradient(#33a8db, #1472b7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(top, #33a8db, #1472b7);
+    color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.banner-content > p{
+    font-size: 20px;
+}
+
+.banner-content > button{
+    background-color: transparent;
+    border-image: linear-gradient(#3ba1cd, #1572b7);
+    border-image-slice: 10;
+    border: 1px solid #33a8db;
+    color: #33a8db;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin: 20px;
+    padding: 16px 32px;
+    text-transform: uppercase;
+}
+
+/* Parte 1: O que vou aprender */
+#course-content{
+    margin: 20px auto;
+    padding: 40px 0;
+    text-align: center;
+    width: 800px;
+}
+
+#course-content > h2{
+    color: #33a8db;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.modules-list{
+    margin: 40px 0;
+}
+
+.module{
+    background-color: #252525;
+    border: 1px solid #33a8db;
+    border-radius: 50px;
+    box-shadow: inset -5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 10px;
+    width: 530px;
+}
+
+.module > span{
+    color: #33a8db;
+}
+
+/* Parte 2: Parallax */
+#transform-world{
+    background-attachment: fixed;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    height: 360px;
+    padding: 100px;
+}
+#transform-world > p{
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow: 3px 3px #33a8db;
+    text-transform: lowercase;
+    width: 250px;
+}
+
+/* Parte 3: evolua */
+#professional-challenges{
+    margin: 60px auto;
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges > h2{
+    color: #33a8db;
+    font-weight: 700;
+    font-style: 32px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#professional-challenges > img{
+    margin: 40px;
+    padding: 0 30px;
+    width: 600px;
+}
+
+/* Rodapé */
+footer{
+    background-image: linear-gradient(#000, #32a8db40);
+    border-top: 1px solid #33a8db80;
+    margin: 30px auto;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.dio-logo{
+    height: 40px;
+    margin: 10px;
+}
+footer > p > a{
+    color: #33a8db;
+    font-weight: 700;
+    text-decoration: none;
+}
